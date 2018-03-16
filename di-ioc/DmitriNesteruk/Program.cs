@@ -12,7 +12,8 @@ namespace DmitriNesteruk
 			//new m08_DefaultRegistration().Run();
 			//new m09_ChoiceOfConstructor().Run();
 			//new m10_RegisteringInstances().Run();
-			new m11_LambdaExpressionComponents().Run();
+			//new m11_LambdaExpressionComponents().Run();
+			new m12_OpenGenericComponents().Run();
         }
     }
 }
