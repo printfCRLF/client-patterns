@@ -2,6 +2,13 @@
 {
     public class m06_ScenarioWithoutDi
     {
-        
+        public void Run()
+        {
+            var log = new ConsoleLog();
+            var engine = new Engine(log);
+            var car = new Car(engine, log);
+            
+            car.Go();
+        }
     }
 }

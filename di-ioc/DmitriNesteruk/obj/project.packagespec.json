@@ -27,6 +27,10 @@
   "frameworks": {
     "netcoreapp2.0": {
       "dependencies": {
+        "Autofac": {
+          "target": "Package",
+          "version": "[4.6.2, )"
+        },
         "Microsoft.NETCore.App": {
           "suppressParent": "All",
           "target": "Package",

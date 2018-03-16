@@ -1,4 +1,5 @@
 ﻿using System;
+using DmitriNesteruk.s02;
 
 namespace DmitriNesteruk
 {
@@ -6,7 +7,8 @@ namespace DmitriNesteruk
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //new m06_ScenarioWithoutDi().Run();
+            new m07_RegisteringTypes().Run();
         }
     }
 }
