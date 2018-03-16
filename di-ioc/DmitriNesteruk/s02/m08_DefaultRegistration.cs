@@ -10,7 +10,7 @@ namespace DmitriNesteruk.s02
 		{
 			var builder = new ContainerBuilder();
 
-			builder.RegisterType<EmailLog>().As<ILog>().AsSelf();
+			builder.RegisterType<EmailLog>().As<ILog>().As<IConsole>();
 			builder.RegisterType<ConsoleLog>().As<ILog>().PreserveExistingDefaults();
 			builder.RegisterType<Engine>();
 			builder.RegisterType<Car>();

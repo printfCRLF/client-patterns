@@ -2,7 +2,7 @@
 
 namespace DmitriNesteruk.Common
 {
-    public class ConsoleLog : ILog
+    public class ConsoleLog : ILog, IConsole
     {
         public void Write(string message)
         {

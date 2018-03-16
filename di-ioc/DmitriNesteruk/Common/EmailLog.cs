@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DmitriNesteruk.Common
 {
-	class EmailLog : ILog
+	class EmailLog : ILog, IConsole
 	{
 		private const string adminEmail = "admin@foo.com";
 
