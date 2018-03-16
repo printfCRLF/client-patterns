@@ -1,4 +1,4 @@
-﻿namespace DmitriNesteruk.s02
+﻿namespace DmitriNesteruk.Common
 {
     public interface ILog
     {

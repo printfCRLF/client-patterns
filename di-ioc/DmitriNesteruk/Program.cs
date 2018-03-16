@@ -8,7 +8,8 @@ namespace DmitriNesteruk
         static void Main(string[] args)
         {
             //new m06_ScenarioWithoutDi().Run();
-            new m07_RegisteringTypes().Run();
+            //new m07_RegisteringTypes().Run();
+			new m08_DefaultRegistration().Run();
         }
     }
 }

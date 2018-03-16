@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DmitriNesteruk.s02
+namespace DmitriNesteruk.Common
 {
     public class Engine
     {
