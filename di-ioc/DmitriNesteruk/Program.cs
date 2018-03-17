@@ -2,6 +2,7 @@
 using DmitriNesteruk.s02;
 using DmitriNesteruk.s03;
 using DmitriNesteruk.s04;
+using DmitriNesteruk.s05;
 
 namespace DmitriNesteruk
 {
@@ -21,9 +22,9 @@ namespace DmitriNesteruk
 			// -- section 03
 			//new m15_PassingParameters().Run();
 			//new m16_PropertyMethodInjection().Run();
-	        //new m17_ScanningForTypes().Run();
+			//new m17_ScanningForTypes().Run();
 			//new m18_ScanningForModules().Run();
-			
+
 			// -- section 04
 			//new m21_DelayedInstantiation().Run();
 			//new m22_ControlledInstantiation().Run();
@@ -31,9 +32,18 @@ namespace DmitriNesteruk
 			//new m24_ParameterizedInstantiation().Run();
 			//new m25_EnumerationExample().Run();
 			//new m26_MetadataInterrogation().Run();
-			new m27_KeyServiceLookup().Run();
+			//new m27_KeyServiceLookup().Run();
 
 			// -- section 05
-		}
+			//new m31_InstanceScope().Run();
+			//new m32_CaptiveDependencies().Run();
+			//new m33_Disposal().Run();
+	        //new m34_LifetimeEvents().Run();
+			new m35_RunningCodeAtStartup().Run();
+
+	        // -- section 06
+
+	        // -- section 07
+        }
 	}
 }

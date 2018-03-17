@@ -1,4 +1,6 @@
-﻿namespace DmitriNesteruk.Common.Family
+﻿using System;
+
+namespace DmitriNesteruk.Common.Family
 {
 	class Child
 	{
@@ -8,6 +10,16 @@
 		public void SetParent(Parent parent)
 		{
 			Parent = parent;
+		}
+
+		public Child()
+		{
+			Console.WriteLine("Child being created");
+		}
+
+		public override string ToString()
+		{
+			return "Hi there";
 		}
 	}
 }

@@ -6,4 +6,7 @@
   <ItemGroup>
     <PackageReference Include="Autofac" Version="4.6.2" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="s07\" />
+  </ItemGroup>
 </Project>
