@@ -20,8 +20,8 @@ namespace DmitriNesteruk
 			// -- section 03
 			//new m15_PassingParameters().Run();
 			//new m16_PropertyMethodInjection().Run();
-	        new m17_ScanningForTypes().Run();
-
+	        //new m17_ScanningForTypes().Run();
+			new m18_ScanningForModules().Run();
 
 
 			// -- section 04

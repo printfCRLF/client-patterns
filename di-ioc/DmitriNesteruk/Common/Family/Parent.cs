@@ -1,4 +1,4 @@
-﻿namespace DmitriNesteruk.s03
+﻿namespace DmitriNesteruk.Common.Family
 {
 	class Parent
 	{
