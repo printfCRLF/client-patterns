@@ -43,9 +43,10 @@ namespace DmitriNesteruk
 			//new m35_RunningCodeAtStartup().Run();
 
 	        // -- section 06
-	        new m39_UsingModule().Run();
+	        //new m39_UsingModule().Run();
+			new m40_MicrosoftConfiguration().Run();
 
-	        // -- section 07
-        }
+			// -- section 07
+		}
 	}
 }

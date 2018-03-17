@@ -1,3 +1,13 @@
 ﻿{
-
+	"defaultAssembly": "DmitriNesteruk",
+	"components": [
+			{
+				"type": "DmitriNesteruk.Common.Math.Addition",
+							"services": [ { "type": "DmitriNesteruk.Common.Math.IOperation" } ]
+			},
+			{
+				"type": "DmitriNesteruk.Common.Math.Multiplication",
+							"services": [ { "type": "DmitriNesteruk.Common.Math.IOperation" } ]
+			}
+	]
 }
