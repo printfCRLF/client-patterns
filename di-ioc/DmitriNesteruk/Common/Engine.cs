@@ -1,4 +1,5 @@
 ﻿using System;
+using DmitriNesteruk.Common.Logging;
 
 namespace DmitriNesteruk.Common
 {

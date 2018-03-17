@@ -1,4 +1,6 @@
-﻿namespace DmitriNesteruk.Common
+﻿using DmitriNesteruk.Common.Logging;
+
+namespace DmitriNesteruk.Common
 {
     public class Car
     {

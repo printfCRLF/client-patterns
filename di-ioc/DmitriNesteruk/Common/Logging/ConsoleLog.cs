@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DmitriNesteruk.Common
+namespace DmitriNesteruk.Common.Logging
 {
     public class ConsoleLog : ILog, IConsole
     {

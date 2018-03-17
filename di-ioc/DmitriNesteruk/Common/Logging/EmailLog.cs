@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace DmitriNesteruk.Common
+namespace DmitriNesteruk.Common.Logging
 {
 	class EmailLog : ILog, IConsole
 	{
