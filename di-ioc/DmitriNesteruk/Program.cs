@@ -3,6 +3,7 @@ using DmitriNesteruk.s02;
 using DmitriNesteruk.s03;
 using DmitriNesteruk.s04;
 using DmitriNesteruk.s05;
+using DmitriNesteruk.s06;
 
 namespace DmitriNesteruk
 {
@@ -39,9 +40,10 @@ namespace DmitriNesteruk
 			//new m32_CaptiveDependencies().Run();
 			//new m33_Disposal().Run();
 	        //new m34_LifetimeEvents().Run();
-			new m35_RunningCodeAtStartup().Run();
+			//new m35_RunningCodeAtStartup().Run();
 
 	        // -- section 06
+	        new m39_UsingModule().Run();
 
 	        // -- section 07
         }
