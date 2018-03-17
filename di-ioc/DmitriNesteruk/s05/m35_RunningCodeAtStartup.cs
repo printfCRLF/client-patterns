@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DmitriNesteruk.s04
+namespace DmitriNesteruk.s05
 {
-    class m28_ContainerIndependence
+    class m35_RunningCodeAtStartup
     {
     }
 }

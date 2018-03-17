@@ -27,7 +27,11 @@ namespace DmitriNesteruk
 			// -- section 04
 			//new m21_DelayedInstantiation().Run();
 			//new m22_ControlledInstantiation().Run();
-			new m23_DynamicInstantiation().Run();
+			//new m23_DynamicInstantiation().Run();
+			//new m24_ParameterizedInstantiation().Run();
+			//new m25_EnumerationExample().Run();
+			//new m26_MetadataInterrogation().Run();
+			new m27_KeyServiceLookup().Run();
 
 			// -- section 05
 		}
