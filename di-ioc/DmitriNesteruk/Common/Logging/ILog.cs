@@ -1,6 +1,8 @@
-﻿namespace DmitriNesteruk.Common.Logging
+﻿using System;
+
+namespace DmitriNesteruk.Common.Logging
 {
-    public interface ILog
+    public interface ILog: IDisposable
     {
         void Write(string message);
     }

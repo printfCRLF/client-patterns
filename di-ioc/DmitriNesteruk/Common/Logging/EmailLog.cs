@@ -10,5 +10,10 @@ namespace DmitriNesteruk.Common.Logging
 		{
 			Console.WriteLine($"Email sent to {adminEmail} : {message}");
 		}
+
+		public void Dispose()
+		{
+			Console.WriteLine("Email logger no longer required");
+		}
 	}
 }
